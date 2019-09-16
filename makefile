@@ -1,5 +1,5 @@
-ABC.exe : main.o palin.o fact.o
-	gcc -o ABC.exe main.o fact.o palin.o
+ABC.exe : main.o palin.o factorial.o
+	gcc -o ABC.exe main.o factorial.o palin.o
 
 main.o : main.c
 	gcc -c main.c
